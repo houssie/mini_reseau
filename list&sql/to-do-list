@@ -1,0 +1,44 @@
+1. créer notre base de donnee : reseau (OK)
+2.etablir la connexion : connection.php (OK)
+3.page : index.php
+  -creation du formulaire pour se connecter(OK)
+  -puis traitement de ce formulaire (OK)
+
+4.page :register.php 
+  -creation de formulaire pour s'inscrire (OK)
+  -traitement de ce formulaire (OK)
+
+5.page : publication.php
+  -traitement pour les gestions des publications et commentaires,(OK)
+  -creation de formulaire pour publier : fromulaire pour ajouter un commentaire (OK)
+                                          Afficher les 3 premiers commentaires (OK)
+                                          Lien "Voir plus" (OK)
+  
+5.page : voir_commentaire.php
+  -affichage des commentaire apres avoir cliquer sur "Voir plus" (OK)
+  -traitement pour recuperer l'id de la publication depuis la requête GET, (OK)
+              recuperer les details de la publication, (OK)
+              et recuperer les details de la publication (OK)
+
+6.functions.php: créer :
+-fonction pour ajouter un commentaire, "add_comment" (OK)
+-fonction pour recuperer les publications d'un utilisateur, "Get_user_publications" (OK)
+-fonction pour recuperer les commentaires d'une publication "get_comment" (OK)
+
+7. page : membres.php
+ -formulaire pour recuperer tout les id_membres inscrits et traitement (OK)
+ - et gestion pour la fonction "Ajouter un ami" (OK)
+
+ 8.page : ami.php
+ -formulaire pour les invitations reçus et traitement, (OK)
+ -gestion de la fonction "accepter" et "refuser" (OK)
+ -affichage des listes d'amis, (OK)
+
+ 9.functions.php : créer :
+ -fonction pour envoyer les invitations d'amitié "send_friend_request" (OK)
+ -fonction pour récupérer les invitations reçus "Get_receive_invitations" (OK)
+ -fonction pour récupérer les listes d'amis "get_friend_list" (OK)
+
+
+
+
