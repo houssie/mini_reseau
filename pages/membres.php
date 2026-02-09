@@ -45,7 +45,7 @@ $result_membres = mysqli_query($bdd, $query_membres);
                     <strong><?php echo $membre['nom']; ?></strong> (<?php echo $membre['email']; ?>)
                     <form method="post" action="membres.php" style="display:inline;">
                         <input type="hidden" name="id_membre" value="<?php echo $membre['id_membres']; ?>">
-                        <button type="submit">Ajouter comme ami</button>
+                        <button type="submit">Ajouter potes </button>
                     </form>
                 </li>
             <?php } ?>
