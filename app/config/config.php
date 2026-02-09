@@ -73,7 +73,7 @@ return [
 		'dbname'   => 'base',           // Database name (e.g., 'flightphp')
 		'user'     => 'root',           // Database user (e.g., 'root')
 		'password' => '',               // Database password (never commit real passwords)
-		        // Database charset
+		'charset'  => 'utf8mb4',        // Database charset
 
 		// SQLite Example:
 		// 'file_path' => __DIR__ . $ds . '..' . $ds . 'database.sqlite', // Path to SQLite file
