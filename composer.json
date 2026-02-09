@@ -1,0 +1,21 @@
+{
+    "name": "flightphp/skeleton",
+    "description": "FlightPHP Skeleton Application",
+    "type": "project",
+    "require": {
+        "flightphp/core": "^3.10",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "prefer-stable": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
